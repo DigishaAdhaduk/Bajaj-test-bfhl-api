@@ -20,10 +20,10 @@ router.post("/bfhl", (req, res) => {
       });
     }
 
-    const fullName = process.env.FULL_NAME || "Jane Student";
-    const dob = process.env.DOB_DDMMYYYY || "01012000";
-    const email = process.env.EMAIL || "student@example.com";
-    const roll = process.env.ROLL_NUMBER || "VIT0000";
+    const fullName = process.env.FULL_NAME || "digisha adhaduk";
+    const dob = process.env.DOB_DDMMYYYY || "30042003";
+    const email = process.env.EMAIL || "digishaadhaduk2022@vitbhopal.ac.in";
+    const roll = process.env.ROLL_NUMBER || "22BCE11330";
 
     const user_id = `${normalizeNameToId(fullName)}_${dob}`;
 
